@@ -1,0 +1,35 @@
+{
+  "name": "react_poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "react-hot-loader": "^4.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-server": "^3.1.2"
+  },
+  "scripts": {
+    "start": "httpster -d ./dist -p 3000",
+    "build": "./node_modules/.bin/webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nakulnagariy/React_POC.git"
+  },
+  "author": "Nakul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nakulnagariy/React_POC/issues"
+  },
+  "homepage": "https://github.com/nakulnagariy/React_POC#readme"
+}
