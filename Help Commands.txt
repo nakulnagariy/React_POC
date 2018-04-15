@@ -1,0 +1,9 @@
+httpster -d ./dist -p 3000
+
+
+babel cli
+babel ./src/index.js --out-file ./dist/bundle.js
+
+
+ ./node_modules/.bin/webpack
+npm install -g webpack babel-loader webpack-dev-server --save-dev
