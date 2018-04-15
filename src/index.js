@@ -1,10 +1,10 @@
-const { render } = ReactDOM;
+import React from 'react'
+import { render } from 'react-dom'
 
-render(
+render (
   <h1 id = 'title'
-    className = 'header'
-    style = { {backgroundColor: '#ddd', color: '#000',fontFamily: 'verdana', padding: '10px'} }>
-    Hello World
+    className = 'header'>
+    अरे हिमांशु, बहुत दुबले लग रहे हो? 
   </h1>,
   document.getElementById('react-container')
 )
