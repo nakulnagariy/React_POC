@@ -57,3 +57,7 @@ typings/
 # dotenv environment variables file
 .env
 
+# ignore all the images
+*.jpg
+*.jpeg
+*.png
